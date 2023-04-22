@@ -2,7 +2,8 @@ import React from "react";
 import "./App.css";
 import Section from "./Section";
 import Project from "./Project";
-
+import ThreeD from "./ThreeD";
+ 
 function App() {
   return (
     <div className="container">
@@ -15,11 +16,12 @@ function App() {
       <Section title="Skills">
         <p>Here are some of the skills I have.</p>
       </Section>
+      <ThreeD/>
       <Section title="Projects">
         <Project
           title="Habit Tracker"
           description="A weekly dot chart which the user can use to keep track of habits. Users can create and mark off habits."
-          image="images/habit-tracker.png"
+          image=" "
           codeLink="https://github.com/Blizzcane/Habit-Tracker-Frontend"
           liveLink="https://habit-tracker-one.vercel.app"
           technologies={[
